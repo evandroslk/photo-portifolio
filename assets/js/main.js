@@ -131,6 +131,7 @@
 						.scrollex({
 							mode:		'middle',
 							delay:		10,
+							delay:		50,
 							initialize:	function() { $(this).addClass('inactive'); },
 							terminate:	function() { $(this).removeClass('inactive'); },
 							enter:		function() { $(this).removeClass('inactive'); },
